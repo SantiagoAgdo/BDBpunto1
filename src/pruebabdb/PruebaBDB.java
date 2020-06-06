@@ -16,10 +16,11 @@ public class PruebaBDB {
      */
     public static void main(String[] args) {
         revision rv = new revision();
-        caracteristica1 c1 = new caracteristica1("BDB",26);
-        
-        rv.revisionCheck(); 
-        System.out.println("Hola " + c1.getBanco() + " sede: " + c1.getSede());
+        caracteristica2 c2 = new caracteristica2();
+        int hora = 10;
+        System.out.println("estado: " + c2.state());
+        System.out.println("esta abierto? " + (c.abierto(hora) ? "Si":"No"));
+        System.out.println("fin");
     }
 
 

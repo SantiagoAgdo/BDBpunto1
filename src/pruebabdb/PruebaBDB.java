@@ -15,7 +15,9 @@ public class PruebaBDB {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        revision rv = new revision();
         System.out.println("Hola Banco de Bogota :)");
+        rv.revisionCheck(); 
     }
     
 }

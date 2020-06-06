@@ -7,7 +7,7 @@ package pruebabdb;
 
 /**
  *
- * @author agude
+ * @author agudelo
  */
 public class PruebaBDB {
 
@@ -16,8 +16,8 @@ public class PruebaBDB {
      */
     public static void main(String[] args) {
         revision rv = new revision();
-        System.out.println("Hola Banco de Bogota :)");
-        rv.revisionCheck(); 
+        caracteristica2 c2 = new caracteristica2();
+        System.out.println("estado: " + c2.state());
     }
     
 }

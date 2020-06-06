@@ -7,7 +7,7 @@ package pruebabdb;
 
 /**
  *
- * @author agude
+ * @author agudelo
  */
 public class PruebaBDB {
 

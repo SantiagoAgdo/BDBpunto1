@@ -16,8 +16,12 @@ public class PruebaBDB {
      */
     public static void main(String[] args) {
         revision rv = new revision();
-        System.out.println("Hola Banco de Bogota :)");
+        caracteristica1 c1 = new caracteristica1("BDB",26);
+        
         rv.revisionCheck(); 
+        System.out.println("Hola " + c1.getBanco() + " sede: " + c1.getSede());
     }
+
+
     
 }

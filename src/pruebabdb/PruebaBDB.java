@@ -20,6 +20,7 @@ public class PruebaBDB {
         int hora = 10;
         System.out.println("estado: " + c2.state());
         System.out.println("esta abierto? " + (c.abierto(hora) ? "Si":"No"));
+        System.out.println("fin");
     }
     
 }
